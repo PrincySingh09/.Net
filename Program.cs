@@ -19,6 +19,7 @@ namespace ConsoleApp4
         {
             Emp emp = new Emp();
             Console.WriteLine(emp.FullName("Princy", "Singh"));
+            Console.WriteLine(emp.FullName(lname:"Princy",fname:"Singh"));
             Console.ReadKey();
         }
     }
